@@ -9,3 +9,6 @@ C:\Users\Tanusha\Documents\GitHub\ParkingWebApiCore\ParkingWebApi\ParkingWebApi\
 C:\Users\Tanusha\Documents\GitHub\ParkingWebApiCore\ParkingWebApi\ParkingWebApi\obj\Debug\netcoreapp2.0\ParkingWebApi.AssemblyInfoInputs.cache
 C:\Users\Tanusha\Documents\GitHub\ParkingWebApiCore\ParkingWebApi\ParkingWebApi\obj\Debug\netcoreapp2.0\ParkingWebApi.AssemblyInfo.cs
 C:\Users\Tanusha\Documents\GitHub\ParkingWebApiCore\ParkingWebApi\ParkingWebApi\obj\Debug\netcoreapp2.0\ParkingWebApi.csproj.CopyComplete
+C:\Users\Tanusha\Documents\GitHub\ParkingWebApiCore\ParkingWebApi\ParkingWebApi\bin\Debug\netcoreapp2.0\ParkingWebApi.pdb
+C:\Users\Tanusha\Documents\GitHub\ParkingWebApiCore\ParkingWebApi\ParkingWebApi\obj\Debug\netcoreapp2.0\ParkingWebApi.dll
+C:\Users\Tanusha\Documents\GitHub\ParkingWebApiCore\ParkingWebApi\ParkingWebApi\obj\Debug\netcoreapp2.0\ParkingWebApi.pdb
