@@ -4,10 +4,10 @@ namespace ParkingWebApi.Services
 {
     public class ParkingManagerService
     {
-        public ParkManagerHelper helper { get; private set; }
+        public ParkManagerHelper Helper { get; private set; }
         public ParkingManagerService()
         {
-            helper = new ParkManagerHelper();
+            Helper = new ParkManagerHelper();
         }
 
     }

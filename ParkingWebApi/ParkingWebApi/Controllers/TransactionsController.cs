@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using ParkingLibrary.Interfaces;
 using ParkingLibrary.Classes;
@@ -20,35 +16,47 @@ namespace ParkingWebApi.Controllers
             this.service = service;
         }
 
+        /// <summary>
+        /// Вивести Transactions.log (GET)
+        /// </summary>
         // GET: api/Transactions/GetLog
         [HttpGet]
         public string GetLog()
         {
-            return service.helper.GetLog();
+            return service.Helper.GetLog();
         }
 
+        /// <summary>
+        /// Вивести транзакції за останню хвилину по одній конкретній машині (GET)
+        /// </summary>
         // GET: api/Transactions/GetById/1234
         [Produces("application/json")]
         [HttpGet("{id}")]
         public List<ITransaction> GetById(int id)
         {
-            return service.helper.GetTransactionsById(id);
+            return service.Helper.GetTransactionsById(id);
         }
 
+        /// <summary>
+        /// Вивести транзакції за останню хвилину (GET)
+        /// </summary>
         // GET: api/Transactions/GetAll
         [Produces("application/json")]
         [HttpGet]
         public List<ITransaction> GetAll()
         {
-            return service.helper.GetTransactionsFor();
+            return service.Helper.GetTransactionsFor();
         }
 
+        /// <summary>
+        /// Поповнити баланс машини (PUT)
+        /// </summary>
         // PUT: api/Transactions/Replenish/1234
         [Produces("application/json")]
         [HttpPut("{id}")]
         public ICar Replenish(int id, [FromBody]Car value)
         {
-            return service.helper.ReplenishBalanceById(id, value);
+            return service.Helper.ReplenishBalanceById(id, value);
         }
 
 

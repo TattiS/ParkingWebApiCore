@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using ParkingWebApi.Services;
 
 namespace ParkingWebApi.Controllers
@@ -17,25 +13,34 @@ namespace ParkingWebApi.Controllers
             this.service = service;
         }
 
+        /// <summary>
+        /// Кількість вільних місць (GET)
+        /// </summary>
         // GET api/<controller>/<action>
         [HttpGet]
         public string GetFree()
         {
-            return service.helper.FreePlaces();
+            return service.Helper.FreePlaces();
         }
 
+        /// <summary>
+        /// Кількість зайнятих місць (GET)
+        /// </summary>
         // GET api/<controller>/<action>
         [HttpGet]
         public string GetEngaged()
         {
-            return service.helper.EngagedPlaces();
+            return service.Helper.EngagedPlaces();
         }
 
+        /// <summary>
+        /// Загальний дохід (GET)
+        /// </summary>
         // GET api/<controller>/<action>
         [HttpGet]
         public string GetIncome()
         {
-            return service.helper.GetIncome();
+            return service.Helper.GetIncome();
         }
 
     }
