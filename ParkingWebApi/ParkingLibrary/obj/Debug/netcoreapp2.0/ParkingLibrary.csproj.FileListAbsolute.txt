@@ -1,0 +1,6 @@
+C:\Users\Tanusha\Documents\GitHub\ParkingWebApiCore\ParkingWebApi\ParkingLibrary\bin\Debug\netcoreapp2.0\ParkingLibrary.deps.json
+C:\Users\Tanusha\Documents\GitHub\ParkingWebApiCore\ParkingWebApi\ParkingLibrary\bin\Debug\netcoreapp2.0\ParkingLibrary.dll
+C:\Users\Tanusha\Documents\GitHub\ParkingWebApiCore\ParkingWebApi\ParkingLibrary\obj\Debug\netcoreapp2.0\ParkingLibrary.csprojAssemblyReference.cache
+C:\Users\Tanusha\Documents\GitHub\ParkingWebApiCore\ParkingWebApi\ParkingLibrary\obj\Debug\netcoreapp2.0\ParkingLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Tanusha\Documents\GitHub\ParkingWebApiCore\ParkingWebApi\ParkingLibrary\obj\Debug\netcoreapp2.0\ParkingLibrary.AssemblyInfoInputs.cache
+C:\Users\Tanusha\Documents\GitHub\ParkingWebApiCore\ParkingWebApi\ParkingLibrary\obj\Debug\netcoreapp2.0\ParkingLibrary.AssemblyInfo.cs
